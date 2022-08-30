@@ -36,3 +36,16 @@ button{
 button:hover{
     opacity: 0.6;
 }
+@media screen and (max-width: 415px) {
+    button {
+        height: 52px;
+        width: 42px;
+    }
+  }
+@media screen and (max-height: 600px) {
+   button {
+       height: 52px;
+    }
+  } 
+
+
