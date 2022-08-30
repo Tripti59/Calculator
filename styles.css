@@ -1,0 +1,38 @@
+.container{
+    text-align: center;
+    margin: 5rem 0;
+}
+table{
+    margin: auto;
+}
+.calc{
+    margin: auto;
+    background-color: rgb(45, 44, 44);
+    height: 75vh;
+    width: 68vw;
+    border-radius: 15px;
+}
+input{
+    box-sizing: border-box;
+    margin-top:1.5rem;
+    margin-bottom: 1rem;
+    height: 56px;
+    width: 70%;
+    border-radius: 12px;
+    padding: 0.5rem;
+    font-size: 24px;
+    font-weight: 600;
+}
+button{
+    background-image: linear-gradient(to left, rgba(255, 141, 1, 0.377), rgb(255, 140, 0));
+    /* height: 48px;
+    width: 50px; */
+    height: 72px;
+    width: 78px;
+    border-radius: 12px;
+    font-size: 36px;
+    font-weight: 600;
+}
+button:hover{
+    opacity: 0.6;
+}
